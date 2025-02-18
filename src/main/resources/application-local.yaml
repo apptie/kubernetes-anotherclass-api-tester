@@ -6,10 +6,5 @@ datasource:
 
 
 volume-path:
-  # for windows
-  persistent-volume-data: "C:\\volume\\local\\pv\\"
-  pod-volume-data: "C:\\volume\\local\\pod\\"
-
-  # for mac
-#  persistent-volume-data: "/users/<username>/IdeaProjects/volume/local/pv/"
-#  pod-volume-data: "/users/<username>/IdeaProjects/volume/local/pod/"
+  persistent-volume-data: "/Users/labtop/intellij/kubernetes-anotherclass-api-tester/volume/local/pv/"
+  pod-volume-data: "/Users/labtop/intellij/kubernetes-anotherclass-api-tester/volume/local/pod/"
